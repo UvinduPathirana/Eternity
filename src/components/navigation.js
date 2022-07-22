@@ -48,7 +48,6 @@ function Navigation () {
                             <input type="text" class="search-input" placeholder="Type to search"/>
                             <button class="search-icon"><span></span></button>
                         </div>
-                        <button class="btn-close"></button>
                     </div>
                     <ul class="header-menu nav">
                         <li class="nav-item">
@@ -80,13 +79,13 @@ function Navigation () {
                                             <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt=""/>
                                             <i class="fa fa-angle-down ms-2 opacity-8"></i>
                                         </a>
-                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
-                                            <button type="button" tabindex="0" class="dropdown-item">User Account</button>
-                                            <button type="button" tabindex="0" class="dropdown-item">Settings</button>
-                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                            <button type="button" tabindex="0" class="dropdown-item">Actions</button>
-                                            <div tabindex="-1" class="dropdown-divider"></div>
-                                            <button type="button" tabindex="0" class="dropdown-item">Dividers</button>
+                                        <div tabIndex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                            <button type="button" tabIndex="0" class="dropdown-item">User Account</button>
+                                            <button type="button" tabIndex="0" class="dropdown-item">Settings</button>
+                                            <h6 tabIndex="-1" class="dropdown-header">Header</h6>
+                                            <button type="button" tabIndex="0" class="dropdown-item">Actions</button>
+                                            <div tabIndex="-1" class="dropdown-divider"></div>
+                                            <button type="button" tabIndex="0" class="dropdown-item">Dividers</button>
                                         </div>
                                     </div>
                                 </div>
